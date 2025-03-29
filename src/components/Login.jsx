@@ -73,7 +73,7 @@ function Login() {
   }
 
   return (
-    <div className="w-[375px] h-[480px] border-2 rounded border-[rgb(218,221,224)] flex px-4 py-6 justify-center bg-[#F7F8F9]">
+    <div className="w-[375px] h-[480px] sm:border-2 rounded border-[rgb(218,221,224)] flex px-4 py-6 justify-center bg-[#F7F8F9]">
       <form action="/account" className='flex flex-col w-full h-full justify-between items-center' onSubmit={handleSubmit}>
         <h2 className='text-[28px] font-bold align-middle mb-10 underline text-[#6C25FF]'>LogIn</h2>
         <div className="w-full">
